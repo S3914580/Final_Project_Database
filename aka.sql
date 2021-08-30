@@ -546,22 +546,23 @@ insert into ingredient values (329087, 'Duck meat', 64000, 'kg', 3164);
 insert into ingredient values (785967, 'Rice noodles', 2000, 'kg', 6055);
 insert into ingredient values (214574, 'Snail', 35000, 'kg', 3164);
 
-insert into meal values ('Bun mam', 3456);
+insert into meal values ('Bun mam', 5556);
 insert into meal values ('Bun bo hue', 5556);
-insert into meal values ('Bun ca nha trang', 7001);
-insert into meal values ('Bun ca chau doc', 8423);
-insert into meal values ('Bun nuoc leo', 3456);
-insert into meal values ('Bun canh chua Nam Bo', 3456);
-insert into meal values ('Mien ga', 7001);
+insert into meal values ('Bun nuoc leo', 5556);
 insert into meal values ('Mien ngan', 8423);
-insert into meal values ('Banh da cua', 3456);
+insert into meal values ('Bun ca chau doc', 5556);
+insert into meal values ('Mien ga', 5556);
+insert into meal values ('Banh da cua', 8423);
+insert into meal values ('Pho', 8423)
+insert into meal values ('Mi hoanh thanh', 5556);
+insert into meal values ('Bun mang vit', 8423);
+insert into meal values ('Bun ca nha trang', 5556);
+insert into meal values ('Bun canh chua Nam Bo', 5556);
 insert into meal values ('Bun oc', 8423);
 insert into meal values ('Hu tiu vam vang', 5556);
 insert into meal values ('Bun rieu cua', 5556);
-insert into meal values ('Mi quang', 8423);
-insert into meal values ('Pho', 8423);
-insert into meal values ('Mi hoanh thanh', 8423);
-insert into meal values ('Bun mang vit', 5556);
+
+
 
 INSERT INTO use_of_portion VALUES (35.5, 'Bun bo hue', 341863);
 INSERT INTO use_of_portion VALUES (37, 'Bun rieu cua', 97965);
