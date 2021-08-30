@@ -1,4 +1,3 @@
-
 CREATE DATABASE restaurant;
 SET foreign_key_checks=0;
 USE restaurant;
@@ -519,32 +518,6 @@ insert into provider values (9, 3164, 'Hoang Dong private enterprise', 093686340
 insert into provider values (10, 8676, 'Tien Giang vegetable company', 0979872376, 20210821, 1475);		      
 
  
-
-insert into payment values (971858, 923000, 'cash', 20210816);
-insert into payment values (385916, 476000, 'cash', 20210816);
-insert into payment values (257491, 1530000, 'banking card', 20210816);
-insert into payment values (827919, 2000000, 'banking card', 20210816);
-insert into payment values (295704, 743000, 'banking card', 20210816);
-insert into payment values (393884, 842000, 'banking transfer', 20210816);
-insert into payment values (390949, 750000, 'banking card', 20210816);
-insert into payment values (399633, 640000, 'banking card', 20210816);
-insert into payment values (256167, 217000, 'cash', 20210816);
-insert into payment values (472639, 555000, 'banking card', 20210816);
-insert into payment values (647432, 460000, 'cash', 20210816);
-insert into payment values (764766, 90000, 'cash', 20210816);
-insert into payment values (782968, 140000, 'banking card', 20210816);
-insert into payment values (176666, 250000, 'banking card', 20210816);
-insert into payment values (317739, 380000, 'banking card', 20210816);
-insert into payment values (862763, 70000, 'banking card', 20210817);
-insert into payment values (996882, 860000, 'banking card', 20210817);
-insert into payment values (897861, 740000, 'cash', 20210817);
-insert into payment values (542561, 1260000, 'banking card', 20210817);
-insert into payment values (755469, 630000, 'banking transfer', 20210817);
-insert into payment values (337174, 80000, 'banking card', 20210817);
-insert into payment values (383566, 90000, 'banking card', 20210817);
-insert into payment values (562116, 156000, 'cash', 20210817);
-insert into payment values (564473, 245000, 'cash', 20210817);
-insert into payment values (840498, 407000, 'cash', 20210817);
 
 insert into ingredient values (341863, 'Beef', 250000, 'kg', 8676);
 insert into ingredient values (488754, 'Chicken meat', 38000, 'kg', 3164);
