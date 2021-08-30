@@ -499,16 +499,16 @@ insert into receipt values (3547, 1247123, 3482, 635000, 1028);
 insert into receipt values (6108, 1247129, 3494, 534000, 1456);
 insert into receipt values (9974, 1247130, 1496, 214000, 1456);
 
-insert into provider values (1,3164, 'Hoang Dong private enterprise', 0970252003, 20210816, 1235);
+insert into provider values (1, 3164, 'Hoang Dong private enterprise', 0970252003, 20210816, 1235);
 insert into provider values (2, 8676, 'Tien Giang vegetable company', 0976960012, 20210816, 1475);
-insert into provider values (3,6055, 0989827109, 20210816, 'Viet Hiep cooking spices company', 1235);
-insert into provider values (4,3164, 0962154352, 20210817, 'Hoang Dong private enterprise', 1235);
-insert into provider values (5,3164, 0971678410, 20210818, 'Hoang Dong private enterprise', 1235);
-insert into provider values (6,3164, 0971733860, 20210819, 'Hoang Dong private enterprise', 1475);
-insert into provider values (7,8676, 0935755910, 20210819, 'Tien Giang vegetable company', 1475);
-insert into provider values (8,3164, 0918443377, 20210820, 'Hoang Dong private enterprise', 1235);
-insert into provider values (9,3164, 0936863401, 20210821, 'Hoang Dong private enterprise', 1475);
-insert into provider values (10,8676, 0979872376, 20210821, 'Tien Giang vegetable company', 1475);
+insert into provider values (3, 6055, 'Viet Hiep cooking spices company', 0989827109, 20210816, 1235);
+insert into provider values (4, 3164, 'Hoang Dong private enterprise', 0962154352, 20210817, 1235);
+insert into provider values (5, 3164, 'Hoang Dong private enterprise', 0971678410, 20210818, 1235);
+insert into provider values (6, 3164, 'Hoang Dong private enterprise', 0971733860, 20210819, 1475);
+insert into provider values (7, 8676, 'Tien Giang vegetable company', 0935755910, 20210819, 1475);
+insert into provider values (8, 3164, 'Hoang Dong private enterprise', 0918443377, 20210820, 1235);
+insert into provider values (9, 3164, 'Hoang Dong private enterprise', 0936863401, 20210821, 1475);
+insert into provider values (10, 8676, 'Tien Giang vegetable company', 0979872376, 20210821, 1475);
 
 insert into payment values (971858, 923000, 'cash', 20210816);
 insert into payment values (385916, 476000, 'cash', 20210816);
@@ -546,23 +546,22 @@ insert into ingredient values (329087, 'Duck meat', 64000, 'kg', 3164);
 insert into ingredient values (785967, 'Rice noodles', 2000, 'kg', 6055);
 insert into ingredient values (214574, 'Snail', 35000, 'kg', 3164);
 
-insert into meal values ('Bun mam', 5556);
+insert into meal values ('Bun mam', 3456);
 insert into meal values ('Bun bo hue', 5556);
-insert into meal values ('Bun nuoc leo', 5556);
+insert into meal values ('Bun ca nha trang', 7001);
+insert into meal values ('Bun ca chau doc', 8423);
+insert into meal values ('Bun nuoc leo', 3456);
+insert into meal values ('Bun canh chua Nam Bo', 3456);
+insert into meal values ('Mien ga', 7001);
 insert into meal values ('Mien ngan', 8423);
-insert into meal values ('Bun ca chau doc', 5556);
-insert into meal values ('Mien ga', 5556);
-insert into meal values ('Banh da cua', 8423);
-insert into meal values ('Pho', 8423)
-insert into meal values ('Mi hoanh thanh', 5556);
-insert into meal values ('Bun mang vit', 8423);
-insert into meal values ('Bun ca nha trang', 5556);
-insert into meal values ('Bun canh chua Nam Bo', 5556);
+insert into meal values ('Banh da cua', 3456);
 insert into meal values ('Bun oc', 8423);
 insert into meal values ('Hu tiu vam vang', 5556);
 insert into meal values ('Bun rieu cua', 5556);
-
-
+insert into meal values ('Mi quang', 8423);
+insert into meal values ('Pho', 8423);
+insert into meal values ('Mi hoanh thanh', 8423);
+insert into meal values ('Bun mang vit', 5556);
 
 INSERT INTO use_of_portion VALUES (35.5, 'Bun bo hue', 341863);
 INSERT INTO use_of_portion VALUES (37, 'Bun rieu cua', 97965);
