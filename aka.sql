@@ -470,37 +470,40 @@ insert into status_of_order values (1247132, 20210817, 	null, 'yes', null, 3494,
 
  
 
-insert into receipt values (1009, 1247128, 3527, 523000, 1456); 
+insert into receipt values (3547, 1247123, 3510, 635000, 1028); 
 
-insert into receipt values (1497, 1247125, 6316, 633000, 1028); 
+insert into receipt values (1687, 1247124, 3517, 167000, 1028); 
 
-insert into receipt values (1547, 1247121, 3550, 354000, 1028); 
+insert into receipt values (4628, 1247122, Null, 643000, 1028); 
 
-insert into receipt values (1687, 1247124, 3510, 167000, 1028); 
+insert into receipt values (1113, 5512136, 3521, 634000, 1456); 
 
-insert into receipt values (2247, 1247122, 6735, 423000, 1028); 
+insert into receipt values (6108, 1247129, 3482, 534000, 1028); 
 
-insert into receipt values (2547, 1247127, 3551, 234000, 1028); 
+insert into receipt values (1547, 1247121, 3581, 354000, 1028); 
 
-insert into receipt values (3457, 1247126, 6314, 413000, 1028); 
+insert into receipt values (2547, 1247127, 3550, 234000, 1028); 
 
-insert into receipt values (3547, 1247123, 3482, 635000, 1028); 
+insert into receipt values (1009, 1247128, 3551, 523000, 1028); 
 
-insert into receipt values (6108, 1247129, 3494, 534000, 1456); 
+insert into receipt values (1497, 1247125, Null, 633000, 1028); 
 
-insert into receipt values (9974, 1247130, 1496, 214000, 1456); 
+insert into receipt values (3457, 1247126, Null, 413000, 1028); 
 
-insert into receipt values (1113, 55512136, 3521, 634000, 1456); 
-
-insert into receipt values (6730, 1247131, null, 124000, 1028);			      
+insert into receipt values (3760, 5512134, 3527, 234000, 1456); 
 
 insert into receipt values (4141, 1247133, 3523, 150000, 1456);			      
 
-insert into receipt values (3760, 5512134, 3517, 234000, 1456);			      
+insert into receipt values (4671, 5512135, Null, 213000, 1456);			      
 
-insert into receipt values (4671, 5512135, null, 213000, 1456);			      
+insert into receipt values (9974, 1247130, Null, 214000, 1028);
+			     
+insert into receipt values (6730, 1247131, Null, 124000, 1028);				    			      
 
-insert into receipt values (2247, 1247122, null, 423000, 1028);	 
+insert into receipt values (2247, 1247132, 3494, 423000, 1028);
+			      
+
+ 
 
  
 
@@ -579,8 +582,8 @@ INSERT INTO users VALUES ('viyeumaden', 'viyeumaden@gmail.com', 576167114329, '2
 INSERT INTO users VALUES ('hoado', 'hoado@gmail.com', 528440752052, '65 Le Loi Dist 1 Ho Chi Minh City Vietnam');	     
 INSERT INTO users VALUES ('kicm', 'kicm@gmail.com', 316824027259, '400 - 402 Ton Dan Ward 4 District 4 Ho Chi Minh Vietnam');	     
 INSERT INTO users VALUES ('bundaumamtom', 'bundaumamtom@gmail.com', 186492426733, '19 Nguyen Binh Khiem Da Kao Ward District 1 Ho Chi Minh Vietnam');	     
-INSERT INTO users VALUES ('comtam', 'comtam@gmail.com', 776986750239, '290 Cach Mang Thang Tam Ward 12 District 10 Ho Chi Minh Vietnam
-');	     
+INSERT INTO users VALUES ('comtam', 'comtam@gmail.com', 776986750239, '290 Cach Mang Thang Tam Ward 12 District 10 Ho Chi Minh Vietnam');
+	     
 			     
 
 			     
