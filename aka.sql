@@ -536,6 +536,7 @@ insert into ingredient values (329087, 'Duck meat', 64000, 'kg', 3164);
 insert into ingredient values (785967, 'Rice noodles', 2000, 'kg', 6055);
 insert into ingredient values (214574, 'Snail', 35000, 'kg', 3164);
 
+			     
 insert into meal values ('Bun mam', 3456);
 insert into meal values ('Bun bo hue', 5556);
 insert into meal values ('Bun ca nha trang', 7001);
@@ -553,6 +554,7 @@ insert into meal values ('Pho', 8423);
 insert into meal values ('Mi hoanh thanh', 8423);
 insert into meal values ('Bun mang vit', 5556);
 
+			     
 INSERT INTO use_of_portion VALUES (35.5, 'Bun bo hue', 341863);
 INSERT INTO use_of_portion VALUES (37, 'Bun rieu cua', 97965);
 INSERT INTO use_of_portion VALUES (32.7, 'Bun nuoc leo', 785967);
@@ -564,9 +566,25 @@ INSERT INTO use_of_portion VALUES (29, 'Mien ga', 488754);
 INSERT INTO use_of_portion VALUES (30.9, 'Bun canh chua nam bo', 785967);
 INSERT INTO use_of_portion VALUES (41, 'Banh da cua', 979656);
 INSERT INTO use_of_portion VALUES (39.3, 'Mien ngan', 896855);
-INSERT INTO use_of_portion VALUES (33.1, 'Hu tiu nam vang', 785967);
+INSERT INTO use_of_portion VALUES (33.1, 'Hu tiu nam vang', 785967);, 
 INSERT INTO use_of_portion VALUES (31.3, 'Bun oc', 214574);
-# Querry 1
+
+			     
+INSERT INTO users VALUES ('jack97', 'jack97@gmail.com', 206978673819, '84 Pham Van Chieu Ward 9 Go Vap District Ho Chi Minh Vietnam');
+INSERT INTO users VALUES ('chaoyenmach', 'chaoyenmach@gmail.com', 563616534504, '713B Dien Bien Phu Ward 22 Binh Thanh District Ho Chi Minh Vietnam');			     
+INSERT INTO users VALUES ('phobokhonghanh', 'phobokhonghanh@gmail.com', 791290981457, '100 Tran Hung Dao Pham Ngu Lao Ward District 1, Ho Chi Minh Vietnam');			     
+INSERT INTO users VALUES ('congdungngonhanh', 'congdungngonhanh@gmail.com', 397052573330, '114 Street No. 2 Do Thanh Residence Ward 04 District 3, Ho Chi Minh Vietnam');			     
+INSERT INTO users VALUES ('dunghanhatm', 'dunghanhatm@gmail.com', 542659193128, '294 lo 8 Cu Chi Ho Chi Minh City Vietnam');
+INSERT INTO users VALUES ('viyeumaden', 'viyeumaden@gmail.com', 576167114329, '29A Nguyen Dinh Chieu Da Kao Ward District 1 Ho Chi Minh Vietnam');			     
+INSERT INTO users VALUES ('hoado', 'hoado@gmail.com', 528440752052, '65 Le Loi Dist 1 Ho Chi Minh City Vietnam');	     
+INSERT INTO users VALUES ('kicm', 'kicm@gmail.com', 316824027259, '400 - 402 Ton Dan Ward 4 District 4 Ho Chi Minh Vietnam');	     
+INSERT INTO users VALUES ('bundaumamtom', 'bundaumamtom@gmail.com', 186492426733, '19 Nguyen Binh Khiem Da Kao Ward District 1 Ho Chi Minh Vietnam');	     
+INSERT INTO users VALUES ('comtam', 'comtam@gmail.com', 776986750239, '290 Cach Mang Thang Tam Ward 12 District 10 Ho Chi Minh Vietnam
+');	     
+			     
+
+			     
+# Querry 1				     		
 SELECT	e.emID , (m.timekeeping - 10) * 50000 AS supporting_income
 FROM	employee e, manage m
 WHERE	e.emID = m.emID AND m.timekeeping > 2 AND e.employee_role = 'shipper' AND e.shift = 'night';
