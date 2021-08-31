@@ -411,47 +411,54 @@ insert into customer values (3551, 'Luu Trang Anh', 9397234325, 3);
 
  
 
-insert into crud values ('TRUE', 10, 0.15, 2315, 'tachfinal');			      
+insert into crud values ('TRUE', 10, 0.15, 2315, 'jack97');			      
 
-insert into crud values ('FALSE', 10, 0.26, 2315, 'tmuondian');			      
+insert into crud values ('FALSE', 10, 0.26, 2315, 'chaoyenmach');			      
 
-insert into crud values ('TRUE', 10, 0.55, 2315, 'ngusuotngay');			      
+insert into crud values ('TRUE', 10, 0.55, 2315, 'phobokhonghanh');			      
 
-insert into crud values ('TRUE', 10, 0.13, 2315, 'buncha');			      
+insert into crud values ('TRUE', 10, 0.13, 2315, 'congdungngonhanh');			      
 
-insert into crud values ('TRUE', 10, 0.12, 2315, 'onhachanqua');			      
+insert into crud values ('TRUE', 10, 0.12, 2315, 'dunghanhatm');			      
 
-insert into crud values ('TRUE', 10, 0.11, 2315, 'aothatday');			      
+insert into crud values ('TRUE', 10, 0.11, 2315, 'viyeumaden');			      
 
-insert into crud values ('TRUE', 7.3, 0.22, 2315, 'taobao'); 
+insert into crud values ('TRUE', 7.3, 0.22, 2315, 'hoado'); 
+			     
+insert into crud values('TRUE', 7.2, 0.16, 2315, 'kicm');
+			     
+insert into crud values('TRUE', 8.2, 0.19, 2315, 'bundaumamtom');
+			    
+insert into crud values('TRUE', 6.2, 0.36, 2315, 'comtam');
+			     
 
  
 
  
 
-insert into status_of_order values (1247130, 20210816, null, 'no', 2541, null, 'Cash', 'buncha'); 
+insert into status_of_order values (1247130, 20210816, null, 'no', 2541, null, 'Cash', 'jack97'); 
 
 insert into status_of_order values (551213, 20210817, null, 'yes', null, 3527, 'Cash', 'None'); 
 
 insert into status_of_order values (5512136, 20210817, null, 'yes', null, 3521, 'Cash', 'None'); 
 
-insert into status_of_order values (1247125, 20210816, null, 'no', 2543, null, 'Cash', 'ngusuotngay'); 
+insert into status_of_order values (1247125, 20210816, null, 'no', 2543, null, 'Cash', 'chaoyenmach'); 
 
 insert into status_of_order values (1247121, 20210816, 	null, 'yes', null, 3581, 'Cash', 'None');	      
 
 insert into status_of_order values (1247124, 20210816, 	null, 'yes', null, 3517, 'Cash', 'None');		      
 
-insert into status_of_order values (1247122, 20210816, 	null, 'no', 2541, null, 'Cash', 'tmuondian');			      
+insert into status_of_order values (1247122, 20210816, 	null, 'no', 2541, null, 'Cash', 'phobokhonghanh');			      
 
-insert into status_of_order values (5512135, 20210817, 	null, 'no', 2541, null, 'Cash', 'alibaba');		      
+insert into status_of_order values (5512135, 20210817, 	null, 'no', 2541, null, 'Cash', 'congdungngonhanh');		      
 
 insert into status_of_order values (1247123, 20210816, 	null, 'no', null, 3510, 'Banking transfer', 'None');			      
 
-insert into status_of_order values (1247126, 20210816, 	null, 'no', 2543, null, 'Cash', 'aothatday');			      
+insert into status_of_order values (1247126, 20210816, 	null, 'no', 2543, null, 'Cash', 'dunghanhatm');			      
 
 insert into status_of_order values (1247127, 20210816, 	null, 'yes', null, 3550, 'Banking transfer', 'None');			      
 
-insert into status_of_order values (1247131, 20210816, 	null, 'no', 2543, null, 'Cash', 'taobao');			      
+insert into status_of_order values (1247131, 20210816, 	null, 'no', 2543, null, 'Cash', 'viyeumaden');			      
 
 insert into status_of_order values (1247129, 20210816, 	null, 'yes', null, 3482, 'Banking transfer', 'None');			      
 
